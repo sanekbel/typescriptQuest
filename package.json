@@ -1,0 +1,24 @@
+{
+  "name": "_Quest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Main.js",
+  "bin": {
+    "_Quest": "Main.js"
+  },
+  "dependencies": {
+    "@types/node": "^14.6.0",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",    
+    "start": "node ./bin/Main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

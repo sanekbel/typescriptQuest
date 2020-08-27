@@ -15,7 +15,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "restore": "npm i @types/node",
+    "restore": "npm install",
     "build": "tsc",    
     "start": "node ./bin/Main.js"
   },
